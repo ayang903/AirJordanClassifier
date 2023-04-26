@@ -1,0 +1,60 @@
+html, body{
+    margin:0;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 45px;
+    margin: 10px 5px;
+    padding: 10px 16px 10px 16px;
+    text-align: center;
+    color: #d60505;
+}
+
+h2{
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 35px;
+    margin: 10px 5px;
+    padding: 10px 16px 10px 16px;
+    text-align: center; 
+    color: #f2a602;
+}
+
+p{
+    color: #0400ff;
+    text-align: center; 
+}
+
+li{
+    color: black;
+    text-align: center; 
+}
+
+ul{
+    color: #000000;
+    list-style-type: none;
+}
+
+input{
+    text-align: center;
+}
+
+img{
+    align-items: center;
+}
+
+.header{
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 20px;
+    margin: 10px 5px;
+    padding: 10px 16px 10px 16px;
+}
+
+.bg{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/418/901/original/empty-basketball-court-in-gym-flat-color-illustration-field-for-sports-game-athletic-activity-in-school-fully-editable-2d-simple-cartoon-interior-with-gymnasium-on-background-vector.jpg);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center center;

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+
+<p>Upload a picture to see whether your shoe is a Jordan 1, 4, 11, or 12:</p>
+
+<form method="POST" enctype="multipart/form-data">
+    <center><input type=file name=file>
+    <input type=submit value=Upload ></center>
+</form>
+
+{% if results%}
+<center><img src="static/{{file}}" height="224" width="224" ></center>
+<p>Prediction:</p>
+<ul>
+    {% for result in results %}
+        {% for c in result %}
+            <li>{{c['label']}}: {{c['score']}}%</li>
+        {% endfor %}
+    {% endfor %}
+</ul>
+
+<center><a href="/bounce">Upload a new picture!</a></center>
+{% endif %}
+
+{% endblock %}
